@@ -1,0 +1,98 @@
+.form-box h2,
+.form-box h3 {
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.form-box h2 {
+  letter-spacing: 5px;
+  margin: 30px auto 10px auto;
+}
+
+.form-box h3 {
+  margin-bottom: 40px;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+.form-box {
+  width: 400px;
+  padding: 40px;
+  margin: 40px auto;
+  background: rgba(21, 37, 59, 255);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.form-box .form-group {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.form-box .form-group input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  /*margin-bottom: 40px;*/
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.form-box .form-group label {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  padding: 10px 0;
+  font-size: 12px;
+  color: #03e9f4;
+}
+
+.form-btn {
+  padding: 10px 20px;
+  color: #03e9f4;
+  background-color: rgba(21, 37, 59, 255);
+  border-color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 20px;
+  letter-spacing: 4px;
+}
+
+.form-btn:hover {
+  color: white;
+  border-color: #03e9f4;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-btn:disabled {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.switch-form {
+  background: none;
+  border: none;
+  padding: 0;
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.error {
+  color: rgba(255, 8, 0, 0.87);
+}
+
+@media (max-width: 568px) {
+  .form-box {
+    width: 300px;
+  }
+}

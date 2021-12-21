@@ -1,0 +1,166 @@
+.post-item {
+  margin: 1rem 0;
+}
+
+.post-item__content {
+  padding: 0;
+}
+
+.post-item__info {
+  padding: 1rem;
+  text-align: center;
+}
+
+.post-item__image {
+  width: 100%;
+  height: 12.5rem;
+  margin-right: 1.5rem;
+}
+
+.post-item__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.post-item__info h2,
+.post-item__info h3,
+.post-item__info p {
+  margin: 0 0 0.5rem 0;
+}
+
+.post-item__likes {
+  border-top: 1px solid #ccc;
+}
+
+.likes-number {
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.links {
+  list-style: none;
+  text-decoration: none;
+}
+.post-item__actions {
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  justify-content: space-evenly;
+  display: flex;
+  background-color: whitesmoke;
+}
+
+.set-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
+
+.post-item__modal-content {
+  padding: 0;
+}
+
+.post-item__modal-actions {
+  text-align: right;
+}
+
+.post-item__actions button,
+.post-item__actions a {
+  margin: 0.5rem;
+}
+
+.post-header {
+  position: relative;
+  background-color: #15253be1;
+  padding: 0.5rem;
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.26);
+}
+
+/* CSS for button*/
+.button-17 {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: 0.25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform, opacity;
+  z-index: 0;
+}
+
+.button-17:hover {
+  background: #f6f9fe;
+  color: #174ea6;
+}
+
+.button-17:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%),
+    0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.button-17:focus {
+  outline: none;
+  border: 2px solid #4285f4;
+}
+
+.button-17:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, 0.3) 0 1px 3px 0,
+    rgba(60, 64, 67, 0.15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, 0.3) 0 2px 3px 0,
+    rgba(60, 64, 67, 0.15) 0 6px 10px 4px;
+}
+
+.button-17:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, 0.3) 0 1px 3px 0,
+    rgba(60, 64, 67, 0.15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, 0.3) 0 4px 4px 0,
+    rgba(60, 64, 67, 0.15) 0 8px 12px 6px;
+}
+
+.button-17:disabled {
+  box-shadow: rgba(60, 64, 67, 0.3) 0 1px 3px 0,
+    rgba(60, 64, 67, 0.15) 0 4px 8px 3px;
+}
+
+/* End css for button */
+@media (min-width: 768px) {
+  .post-item__image {
+    height: 100%;
+  }
+}

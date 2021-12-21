@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #dfdfdf;
+}
+
+.slide-in-left-enter {
+  transform: translateX(-100%);
+}
+
+.slide-in-left-enter-active {
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 200ms;
+}
+
+.slide-in-left-exit {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.slide-in-left-exit-active {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: all 200ms;
+}
+
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* style for date picker section */
+.Date-picker-wrapper {
+  text-align: center;
+  margin: auto;
+  width: 47%;
+}
+.Date-picker {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.startdate,
+.enddate {
+  padding: 10px;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+.Date-picker .to {
+  margin: 10px;
+  color: gray;
+  font-weight: bolder;
+}
+.filter-btn {
+  padding: 10px;
+  width: 150px;
+  margin-left: 10px;
+  font-weight: 900;
+  background-color: white;
+  color: gray;
+  border: 1px solid grey;
+}
+@media screen and (max-width: 900px) {
+  .Date-picker {
+    display: block;
+  }
+  .filter-btn {
+    margin-left: 0;
+    margin: 10px 0px;
+    width: 135px;
+  }
+}
